@@ -5,9 +5,145 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 51, 153, 0.3);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: .5s ease-in-out;
+}
+
+.task {
+  margin: 25px 170px;
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.tableWithUsers {
+  margin: 20px 5%;
+}
+
+.undertask {
+  margin: 5px 170px;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.table {
+  display: flex;
+  margin: 0 200px;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  padding: 0 25px;
+  border-radius: 45px;
+  background-color: rgb(255, 255, 255, 1);
+}
+
+header {
+  margin: 25px 170px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.table_name .table_search {
+  display: flex;
+  padding: 20px 20px;
+  margin: 0 25px;
+}
+
+table {
+  align-items: center;
+  align-content: center;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 25px;
+}
+
+th {
+  font-weight: normal;
+  border-bottom: 2px solid #6678b1;
+  border-right: 30px solid white;
+  border-left: 30px solid white;
+  color: #039;
+  padding: 8px 2px;
+}
+
+td {
+  color: #669;
+  text-align: center;
+  border-top: 1px solid #e8edff;
+  padding: 10px 15px;
+}
+
+tr:nth-child(2n) {
+  background: #e8edff;
+}
+
+header h2 {
+  flex-flow: row wrap;
+  display: inline-block;
+  vertical-align: auto;
+}
+
+.search {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #669;
+  border-radius: 5px;
+  outline: none;
+}
+
+.div_buttons_under_table {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 25px;
+}
+
+.div_buttons_under_table:last-child {
+  margin-bottom: 50px;
+}
+
+.text_dec {
+  margin-right: 30px;
+}
+
+.buttons_under_table {
+  margin-right: 7.5px;
+  width: 30px;
+  height: 30px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.sorting_th {
+  cursor: pointer;
 }
