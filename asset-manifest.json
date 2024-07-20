@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/-react-fetchapi-/static/css/main.712a17ec.css",
-    "main.js": "/-react-fetchapi-/static/js/main.2249e8b1.js",
-    "static/js/453.226b5fa4.chunk.js": "/-react-fetchapi-/static/js/453.226b5fa4.chunk.js",
-    "index.html": "/-react-fetchapi-/index.html",
-    "main.712a17ec.css.map": "/-react-fetchapi-/static/css/main.712a17ec.css.map",
-    "main.2249e8b1.js.map": "/-react-fetchapi-/static/js/main.2249e8b1.js.map",
-    "453.226b5fa4.chunk.js.map": "/-react-fetchapi-/static/js/453.226b5fa4.chunk.js.map"
+    "main.css": "/-React-FetchAPI-/static/css/main.712a17ec.css",
+    "main.js": "/-React-FetchAPI-/static/js/main.d27e2562.js",
+    "static/js/453.226b5fa4.chunk.js": "/-React-FetchAPI-/static/js/453.226b5fa4.chunk.js",
+    "index.html": "/-React-FetchAPI-/index.html",
+    "main.712a17ec.css.map": "/-React-FetchAPI-/static/css/main.712a17ec.css.map",
+    "main.d27e2562.js.map": "/-React-FetchAPI-/static/js/main.d27e2562.js.map",
+    "453.226b5fa4.chunk.js.map": "/-React-FetchAPI-/static/js/453.226b5fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.712a17ec.css",
-    "static/js/main.2249e8b1.js"
+    "static/js/main.d27e2562.js"
   ]
 }
